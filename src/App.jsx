@@ -12,14 +12,40 @@ function App() {
         <section className="produtos">
 
           {/* Produto 1 */}
-          <div className="card">
-            <img src={TenisNike} alt="" className="img-prod"/>
-            <h2>Tenis Nike</h2>
-            <p className="desc">Um lindo tenis da nike</p>
-            <p className="preco">R$ 699,99</p>
-            <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
-            <div className="off">- 15%</div>
-          </div>
+          <a href="#" className="link-card">
+            <div className="card">
+              <img src={TenisNike} alt="" className="img-prod"/>
+              <h2>Tenis Nike</h2>
+              <p className="desc">Um lindo tenis da nike</p>
+              <p className="preco">R$ 699,99</p>
+              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <div className="off">- 15%</div>
+            </div>
+          </a>
+
+          {/* Produto 2 */}
+          <a href="#" className="link-card">
+            <div className="card">
+              <img src={TenisNike} alt="" className="img-prod"/>
+              <h2>Tenis Nike</h2>
+              <p className="desc">Um lindo tenis da nike</p>
+              <p className="preco">R$ 699,99</p>
+              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <div className="off">- 15%</div>
+            </div>
+          </a>
+
+          {/* Produto 3 */}
+          <a href="#" className="link-card">
+            <div className="card">
+              <img src={TenisNike} alt="" className="img-prod"/>
+              <h2>Tenis Nike</h2>
+              <p className="desc">Um lindo tenis da nike</p>
+              <p className="preco">R$ 699,99</p>
+              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <div className="off">- 15%</div>
+            </div>
+          </a>
 
         </section>
         <section className="destaque"></section>
