@@ -5,6 +5,8 @@ import Cjoa from './assets/cap-joaninha.jpg'
 import Curs from './assets/cap-ursinho.avif'
 import Slider1 from './assets/slider1.jpg'
 import Slider2 from './assets/slider2.jpg'
+import Slider3 from './assets/slider3.jpg'
+import Slider4 from './assets/slider4.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper/modules'
 import 'swiper/css'
@@ -34,10 +36,10 @@ function App() {
               <img src={Slider2} alt="Slide 2" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Slider1} alt="Slide 3" />
+              <img src={Slider3} alt="Slide 3" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Slider2} alt="Slide 3" />
+              <img src={Slider4} alt="Slide 3" />
             </SwiperSlide>
           </Swiper>
         </header>
